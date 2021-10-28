@@ -1,0 +1,27 @@
+{
+  "name": "chatroom-socketio",
+  "version": "1.0.0",
+  "description": "Chatroom app by socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dungnt0210/chatroom-socketio.git"
+  },
+  "author": "gnudneit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dungnt0210/chatroom-socketio/issues"
+  },
+  "homepage": "https://github.com/dungnt0210/chatroom-socketio#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.14",
+    "socket.io": "^4.3.1"
+  }
+}
